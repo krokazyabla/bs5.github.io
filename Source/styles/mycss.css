@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(90deg, #5351e6 0%, #3b9cf7 100%);
+}
+
+.nav-link{
+    color: bisque;
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(189, 233, 178);
+}
+.navbar-brand img{
+    width: 130px;
+    background-color: #c9bebe;
+}
+.navbar-toggler{
+    background-color: antiquewhite;
+}
+.card{
+    box-shadow: 5px 5px 10px 1px #000000;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.sidebar{
+    color: bisque;
+    background-color: #5351e6;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
